@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jkim7\\source\\repos\\[Unity 9\uAE30] Text RPG (\uC2A4\uD30C\uB974\uD0C0 \uB358\uC804) \uACFC\uC81C\\This is Sparta!!\\",
+  "WorkspaceRootPath": "C:\\Users\\JM\\Desktop\\UnityGit\\Unity\\This is Sparta!!\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DF193E3-8FFD-4B45-A9E5-AE543AA030A0}|This is Sparta!!\\This is Sparta!!.csproj|c:\\users\\jkim7\\source\\repos\\[unity 9\uAE30] text rpg (\uC2A4\uD30C\uB974\uD0C0 \uB358\uC804) \uACFC\uC81C\\this is sparta!!\\this is sparta!!\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3DF193E3-8FFD-4B45-A9E5-AE543AA030A0}|This is Sparta!!\\This is Sparta!!.csproj|c:\\users\\jm\\desktop\\unitygit\\unity\\this is sparta!!\\this is sparta!!\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DF193E3-8FFD-4B45-A9E5-AE543AA030A0}|This is Sparta!!\\This is Sparta!!.csproj|solutionrelative:this is sparta!!\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jkim7\\source\\repos\\[Unity 9\uAE30] Text RPG (\uC2A4\uD30C\uB974\uD0C0 \uB358\uC804) \uACFC\uC81C\\This is Sparta!!\\This is Sparta!!\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\JM\\Desktop\\UnityGit\\Unity\\This is Sparta!!\\This is Sparta!!\\Program.cs",
               "RelativeDocumentMoniker": "This is Sparta!!\\Program.cs",
-              "ToolTip": "C:\\Users\\jkim7\\source\\repos\\[Unity 9\uAE30] Text RPG (\uC2A4\uD30C\uB974\uD0C0 \uB358\uC804) \uACFC\uC81C\\This is Sparta!!\\This is Sparta!!\\Program.cs",
+              "ToolTip": "C:\\Users\\JM\\Desktop\\UnityGit\\Unity\\This is Sparta!!\\This is Sparta!!\\Program.cs",
               "RelativeToolTip": "This is Sparta!!\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T01:22:50.708Z",
               "EditorCaption": ""
