@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/This is Sparta!!.csproj": {}
+    "/Users/minjonggon/Documents/GitHub/Unity/Unity.csproj": {}
   },
   "projects": {
-    "/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/This is Sparta!!.csproj": {
+    "/Users/minjonggon/Documents/GitHub/Unity/Unity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/This is Sparta!!.csproj",
-        "projectName": "This is Sparta!!",
-        "projectPath": "/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/This is Sparta!!.csproj",
+        "projectUniqueName": "/Users/minjonggon/Documents/GitHub/Unity/Unity.csproj",
+        "projectName": "Unity",
+        "projectPath": "/Users/minjonggon/Documents/GitHub/Unity/Unity.csproj",
         "packagesPath": "/Users/minjonggon/.nuget/packages/",
-        "outputPath": "/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/obj/",
+        "outputPath": "/Users/minjonggon/Documents/GitHub/Unity/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/minjonggon/.nuget/NuGet/NuGet.Config"

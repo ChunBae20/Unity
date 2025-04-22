@@ -1,0 +1,15 @@
+/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/bin/Debug/net8.0/This is Sparta!!
+/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/bin/Debug/net8.0/This is Sparta!!.deps.json
+/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/bin/Debug/net8.0/This is Sparta!!.runtimeconfig.json
+/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/bin/Debug/net8.0/This is Sparta!!.dll
+/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/bin/Debug/net8.0/This is Sparta!!.pdb
+/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/obj/Debug/net8.0/This is Sparta!!.GeneratedMSBuildEditorConfig.editorconfig
+/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/obj/Debug/net8.0/This is Sparta!!.AssemblyInfoInputs.cache
+/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/obj/Debug/net8.0/This is Sparta!!.AssemblyInfo.cs
+/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/obj/Debug/net8.0/This is Sparta!!.csproj.CoreCompileInputs.cache
+/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/obj/Debug/net8.0/This is Sparta!!.sourcelink.json
+/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/obj/Debug/net8.0/This is Sparta!!.dll
+/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/obj/Debug/net8.0/refint/This is Sparta!!.dll
+/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/obj/Debug/net8.0/This is Sparta!!.pdb
+/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/obj/Debug/net8.0/This is Sparta!!.genruntimeconfig.cache
+/Users/minjonggon/Documents/GitHub/Unity/This is Sparta!!/This is Sparta!!/obj/Debug/net8.0/ref/This is Sparta!!.dll
