@@ -40,7 +40,7 @@ namespace This_is_Sparta__
 
         static void JoinBattleScene()
         {
-            
+            Console.Clear();
             Console.WriteLine();
             ShowEnemy(currentEnemies, true);
             Console.WriteLine();
@@ -122,8 +122,10 @@ namespace This_is_Sparta__
         }
         static void ShowEnemy(List<Enemy> enemies,bool showIdx)
         {
-
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Battle!");
+            Console.ResetColor();
+            Console.WriteLine();
             for (int i = 0; i < enemies.Count; i++)
             {
                 string displayIdx = showIdx ? $"{i + 1}. " : "";
@@ -131,10 +133,6 @@ namespace This_is_Sparta__
             }
             Console.WriteLine();
         }
-
-
-
-
 
         static int CheckInput(int min, int max)
         {

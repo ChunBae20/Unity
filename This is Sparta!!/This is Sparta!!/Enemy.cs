@@ -26,9 +26,22 @@ namespace This_is_Sparta__
         }
         public string EnemyInfoText()
         {
-            string status = IsDead ? "Dead" : $"HP {CurrentHp}";
-            return $"Lv.{Level} {Name} {status}";
+
+            string status = IsDead ? $"Dead" : $" HP {CurrentHp}";
+            if (IsDead)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine($"Lv. {Level} {Name} {status}");
+                Console.ResetColor();
+                return "";
+            }
+            else
+            {
+                return $"Lv.{Level} {Name} HP:{status}";
+            }
+                
         }
+        
 
 
     }

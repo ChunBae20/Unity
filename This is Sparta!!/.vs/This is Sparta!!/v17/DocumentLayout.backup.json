@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{3DF193E3-8FFD-4B45-A9E5-AE543AA030A0}|This is Sparta!!\\This is Sparta!!.csproj|solutionrelative:this is sparta!!\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3DF193E3-8FFD-4B45-A9E5-AE543AA030A0}|This is Sparta!!\\This is Sparta!!.csproj|c:\\users\\jm\\desktop\\unitygit\\unity\\this is sparta!!\\this is sparta!!\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DF193E3-8FFD-4B45-A9E5-AE543AA030A0}|This is Sparta!!\\This is Sparta!!.csproj|solutionrelative:this is sparta!!\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3DF193E3-8FFD-4B45-A9E5-AE543AA030A0}|This is Sparta!!\\This is Sparta!!.csproj|c:\\users\\jm\\desktop\\unitygit\\unity\\this is sparta!!\\this is sparta!!\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DF193E3-8FFD-4B45-A9E5-AE543AA030A0}|This is Sparta!!\\This is Sparta!!.csproj|solutionrelative:this is sparta!!\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DF193E3-8FFD-4B45-A9E5-AE543AA030A0}|This is Sparta!!\\This is Sparta!!.csproj|c:\\users\\jm\\desktop\\unitygit\\unity\\this is sparta!!\\this is sparta!!\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DF193E3-8FFD-4B45-A9E5-AE543AA030A0}|This is Sparta!!\\This is Sparta!!.csproj|solutionrelative:this is sparta!!\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DF193E3-8FFD-4B45-A9E5-AE543AA030A0}|This is Sparta!!\\This is Sparta!!.csproj|c:\\users\\jm\\desktop\\unitygit\\unity\\this is sparta!!\\this is sparta!!\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DF193E3-8FFD-4B45-A9E5-AE543AA030A0}|This is Sparta!!\\This is Sparta!!.csproj|solutionrelative:this is sparta!!\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,39 +34,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\JM\\Desktop\\UnityGit\\Unity\\This is Sparta!!\\This is Sparta!!\\Item.cs",
               "RelativeDocumentMoniker": "This is Sparta!!\\Item.cs",
               "ToolTip": "C:\\Users\\JM\\Desktop\\UnityGit\\Unity\\This is Sparta!!\\This is Sparta!!\\Item.cs",
               "RelativeToolTip": "This is Sparta!!\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvyQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T06:04:04.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Users\\JM\\Desktop\\UnityGit\\Unity\\This is Sparta!!\\This is Sparta!!\\Character.cs",
               "RelativeDocumentMoniker": "This is Sparta!!\\Character.cs",
               "ToolTip": "C:\\Users\\JM\\Desktop\\UnityGit\\Unity\\This is Sparta!!\\This is Sparta!!\\Character.cs",
               "RelativeToolTip": "This is Sparta!!\\Character.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBEAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwCYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T06:03:30.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\JM\\Desktop\\UnityGit\\Unity\\This is Sparta!!\\This is Sparta!!\\Enemy.cs",
               "RelativeDocumentMoniker": "This is Sparta!!\\Enemy.cs",
               "ToolTip": "C:\\Users\\JM\\Desktop\\UnityGit\\Unity\\This is Sparta!!\\This is Sparta!!\\Enemy.cs",
               "RelativeToolTip": "This is Sparta!!\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T06:02:20.197Z",
               "EditorCaption": ""
@@ -79,7 +79,7 @@
               "RelativeDocumentMoniker": "This is Sparta!!\\Program.cs",
               "ToolTip": "C:\\Users\\JM\\Desktop\\UnityGit\\Unity\\This is Sparta!!\\This is Sparta!!\\Program.cs",
               "RelativeToolTip": "This is Sparta!!\\Program.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAQwKwAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T01:22:50.708Z",
               "EditorCaption": ""
