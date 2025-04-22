@@ -1,0 +1,15 @@
+E:\GitHub\Unity\This is Sparta!!\This is Sparta!!\bin\Debug\net8.0\This is Sparta!!.exe
+E:\GitHub\Unity\This is Sparta!!\This is Sparta!!\bin\Debug\net8.0\This is Sparta!!.deps.json
+E:\GitHub\Unity\This is Sparta!!\This is Sparta!!\bin\Debug\net8.0\This is Sparta!!.runtimeconfig.json
+E:\GitHub\Unity\This is Sparta!!\This is Sparta!!\bin\Debug\net8.0\This is Sparta!!.dll
+E:\GitHub\Unity\This is Sparta!!\This is Sparta!!\bin\Debug\net8.0\This is Sparta!!.pdb
+E:\GitHub\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\This is Sparta!!.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitHub\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\This is Sparta!!.AssemblyInfoInputs.cache
+E:\GitHub\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\This is Sparta!!.AssemblyInfo.cs
+E:\GitHub\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\This is Sparta!!.csproj.CoreCompileInputs.cache
+E:\GitHub\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\This is Sparta!!.sourcelink.json
+E:\GitHub\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\This is Sparta!!.dll
+E:\GitHub\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\refint\This is Sparta!!.dll
+E:\GitHub\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\This is Sparta!!.pdb
+E:\GitHub\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\This is Sparta!!.genruntimeconfig.cache
+E:\GitHub\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\ref\This is Sparta!!.dll
