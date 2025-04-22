@@ -1,180 +1,161 @@
-//메인
+//인벤토리
+
+
 
 using System;
-using System.Runtime.InteropServices;
-using This_is_Sparta__;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using OnlytestTRPG; //나만 추가
 
 
-// 자식 : 부모 힐아이템 인벤토리 다수정
-public class MainSpace                        //♥♥♥원래는 program이엇던것♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥
+namespace This_is_Sparta__
 {
 
-
-    static void Main(string[] args)
+    internal class Item //  ♥♥♥♥♥♥♥internal추가
     {
+        public string ItemName;
+        public string ItemType;
+        public int ItemStat;
+        public bool IsEquiped = false;
 
-
-        MainMenu();                       //♥♥♥원래는StartScene()♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥
-
-
-
-    }
-
-    public static void MainMenu()                 //♥♥♥원래는 public static void StartScene()♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥
-    {
-
-
-
-
-        while (true)
+        public Item(string itemName, string itemType, int itemStat)
         {
+            ItemName = itemName;
+            ItemType = itemType;
+            ItemStat = itemStat;
+        }
+
+        public void Equip(bool withIndex = false, int index = 0)
+        {
+            string status = IsEquiped ? $"[E]" : "";  //♥♥♥♥♥♥♥♥♥와 지수님 감사합니다ㅠㅠstatus라는걸 써주셨군요흠 이거 str알def 따로 장비에 int값 넣어주셔야 할것같은데용 그래야 쉽게 불러올수있을것같아요
+            string prefix = withIndex ? $"-{index + 1}" : "- ";
+            Console.WriteLine($"{prefix}. {status}{ItemName} | {ItemType} | {ItemStat}");  //♥♥♥♥♥♥♥♥타입이 공격력 방어력인가? 그러면 공방 만 불러오면 되겠네?장착여르를 [E]로 갑지하고 불값으로 불러오면 되겠네?
+        }                                                                                      //♥♥♥♥♥♥♥♥♥♥♥어? 공교롭게도 itemType 이 string으로 통합됐네?개꿀이잖아?
+                                                                                               //♥♥♥♥♥isItemType 선언 안됐고? 개꿀개꿀왕개꿀개꿀
+    }                                                                                          //아 잠깐만 설마 이거 겹치나?status클래스랑?
+
+    public class Inventory // ♥♥♥♥♥♥♥♥♥♥♥♥♥이거 상속좀 뺄게요 ㅠㅠ스택오버플로나요 대신 쓸때는 MainSpace로 해야할것같아요 : MainSpace // pull 완료 시 메인 체인지
+    {                       //♥♥♥♥♥♥♥♥♥♥♥♥인터널에서 퍼블릭으로 바꿀게요 인터널이라서 메인의new inven에서 접근이 안되네용
 
 
 
 
+
+        internal static Item[] equipment =                   //internal  쓰겟습니다. 
+        [
+            new("낡은 검", "공격력", 2),
+            new("낡은 옷", "방어력", 2)
+        ];
+
+        public void InventoryUI()
+        {
             Console.Clear();
-            Console.WriteLine(" 스파르타 던전에 오신 여러분 환영합니다.");
-            Console.WriteLine(" 이제 전투를 시작할 수 있습니다. \n\n\n");
+            Console.WriteLine("인벤토리");
+            Console.WriteLine("캐릭터의 장비가 표시 됩니다.\n");
 
-            Console.WriteLine("1. 상태 보기");
-            Console.WriteLine("2. 인벤토리");
-            Console.WriteLine("3. 회복 아이템");
-            Console.WriteLine("4. 전투 시작");
-            Console.WriteLine("원하시는 행동을 입력해주세요.....");
-
-            string Maininput = Console.ReadLine();
-
-            switch (Maininput)
+            for (int i = 0; i < equipment.Length; i++)
             {
-                case "1":
-                    StatusScene();
-                    break;
-                case "2":
-                    inven.InventoryUI();
-                    break;
-                case "3":
-                    HealItem();
-                    return;
-                case "4":
-                    BattleScene();
-                    return;
-                case "team5NP":
-                    TeamMembers();
-                    break;
+                equipment[i].Equip(false, i);
+            }
 
-                default:
-                    Console.WriteLine("잘못된 입력입니다. 아무 키나 누르면 다시 선택화면으로 돌아갑니다.");
-                    Console.ReadKey();
-                    break;
+            Console.WriteLine("\n1. 장착");
+            Console.WriteLine("0. 나가기");
+            Console.WriteLine("\n원하시는 행동을 입력해주세요.");
+            Console.Write(">> ");
+
+            int num = MainSpace.Input(0, 1);  //♥♥♥♥♥♥♥♥♥♥♥여기도 MainSpace.으로 바꿀게요 ♥♥♥♥♥♥
+
+            switch (num)
+            {
+                case 0: MainSpace.MainMenu(); break;
+                case 1: EquippedAndUnequipped(); break;
             }
         }
-    }
 
-
-    public static Inventory inven = new Inventory(); //Inventory의 클래스를 가져와서 inven이라는 새로운 인스턴스 생성한다.
-    public static Status status = new Status();      //Status의 클래스를 가져와서 status라는 새로운 인스턴스를 생성한다.
-    static void StatusScene()
-    {
-
-        //기본 체력부
-        int basicstr = status.basicSTR;
-        int basicdef = status.basicDEF;
-        int basicHP = status.basicHP;
-        int basicgold = status.basicGold;
-
-        //추가부
-        //int weaponSTR  ;//nowEquipSTR; //weaponSTR은 nowEquipSTR라는 Inventory의클래스 내부 변수에서 가져온다.현재 장착한 무기
-        //int weaponDEF ; //weaponDEF은 nowEquipDEF라는 Inventory의클래스 내부 변수에서 가져온다.현재 장착한 방어구
-
-        
-        int nowHP = status.HP;             //nowHP는 HP라는 Status의 클래스 내부 변수에서 가져온다. 현재체력
-        int nowGold = status.Gold;         //nowGold는 Gold라는 Status의클래스 내부 변수에서 가져온다. 현재보유골드.
-
-        Console.Clear();
-        Console.WriteLine(" 캐릭터의 정보가 표시됩니다.\n\n\n");
-        Console.WriteLine("공격력 : " + basicstr + " (+ " + status.nowEquipSTR + ")");     // 기본 공력력10 (+장비 공격력)
-        Console.WriteLine("방어력 : " + basicdef + " (+ " + status.nowEquipDEF + ")");      // 기본 방어력5  (+장비 방어력)
-        Console.WriteLine("체력 :" + basicHP + " ( " + nowHP + ")");             // 기본 체력100  (+장비 체력)
-        Console.WriteLine("Gold : " + basicHP + " ( " + nowGold + ")");            // 기본 골드
-
-    backagain:
-        Console.WriteLine("\n\n\n원하는 행동을 입력하세요");
-        Console.WriteLine(" 0. 나가기\n\n\n");
-
-        string gotoStartScene = "0";
-        string gotoexit = Console.ReadLine();
-        if (gotoexit == gotoStartScene)
+        public void EquippedAndUnequipped()
         {
-            MainMenu();                          ///♥♥♥♥♥♥♥♥♥♥♥♥원래는 StartScene();엿던것♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥
-        }
-        else
-        {
-            goto backagain;
-        }
-
-
-        Console.WriteLine("상태보기 입니다. \n아무 키나 누르면 돌아갑니다.");
-        Console.ReadKey();
-    }
-    public static int Input(int min, int max)   //♥♥♥♥♥♥♥♥♥♥♥♥ 인벤토리에서 Input값을 못불러옴 그래서 static 썼음
-    {
-        while (true)
-        {
-            string input = Console.ReadLine() ?? "";
-            bool IsSelect = int.TryParse(input, out int number);
-
-            if (IsSelect && min <= number && max >= number)
+            while (true)
             {
-                return number;
+                Console.Clear();
+                Console.WriteLine("인벤토리 - 장착");
+                Console.WriteLine("캐릭터의 장비를 장착 및 해제 가능 합니다.\n");
+
+                for (int i = 0; i < equipment.Length; i++)
+                {
+                    equipment[i].Equip(true, i);
+                }
+
+                Console.WriteLine("\n0. 나가기");
+                Console.WriteLine("\n원하시는 행동을 입력해주세요.");
+                Console.Write(">> ");
+
+
+                int num = MainSpace.Input(0, equipment.Length);/// ♥♥♥♥♥여기도 MainSpace.Input으로 바꿀게요 왜냐면 상송하면 무한반복스택오버플로♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥   
+
+                switch (num)
+                {
+                    case 0: InventoryUI(); break;
+                    default:
+                        equipment[num - 1].IsEquiped = !equipment[num - 1].IsEquiped;
+                        SearchEquipWeapon();//♥♥♥♥♥밑에 장비 공격력 추가한거 여기에 서 적용할게요
+                        string action = equipment[num - 1].IsEquiped ? "장착" : "해제";
+                        Console.WriteLine($"\n{equipment[num - 1].ItemName} {action} 완료");
+
+                        Console.WriteLine("\n아무 키나 누르면 계속합니다...");
+                        Console.ReadKey();
+                        break;
+                }
             }
-            Console.WriteLine("잘못된 입력입니다");
         }
-    }
-        static void InventoryScene()
-    {
-        Console.Clear();
-        Console.WriteLine("인벤토리화면입니다. \n아무 키누르면 프로그램 종료");
 
-        Console.ReadKey();
-    }
 
-    static void HealItem()
-    {
-        Console.Clear();
-        Console.WriteLine("회복 아이템 화면입니다. \n아무 키누르면 프로그램 종료");
+        //♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥이거좀 추가할게요 아이템장비추가 너무힘들어요..ㅠㅠ 뭐가문젠지 어떻게든 연결하려고해봤지만 안돼서 2시간의 고민끝네나온결정임다.,..
 
-        Console.ReadKey();
-    }
+        public void SearchEquipWeapon()
+        {
+            int weaponSTR = 0; //무기공격력    혹시라도 나중에 공격력이랑 방어력 등 두개 이상 할수도있을거같으니일단 이렇게해둠
+            int weaponDEF = 0; // 방어구 공격력
+            int weaponCRT = 0; // 치명타
+            int weaponAVD = 0; // 회피
 
-    static void BattleScene()
-    {
-        Console.Clear();
-        Console.WriteLine("전투화면입니다. \n아무 키누르면 프로그램 종료");
-        Console.ReadKey();
-    }
+            for (int i = 0; i < Inventory.equipment.Length; i++)
+            {
+                if (Inventory.equipment[i].IsEquiped == true)                 // 장창된게 확인된다면
+                {
+                    if (Inventory.equipment[i].ItemType == "공격력")          //아이템 타입이 공격력이라면
+                    {
+                        weaponSTR += Inventory.equipment[i].ItemStat;
+                    }
+                    else if (Inventory.equipment[i].ItemType == "방어력")     //아이템 타입이 방어력이라면
+                    {
+                        weaponDEF += Inventory.equipment[i].ItemStat;         //weaponDEF에 방어력을 더해준다
+                    }
+                    else if (Inventory.equipment[i].ItemType == "치명타")     //아이템 타입이 치명타라면
+                    {
+                        weaponCRT += Inventory.equipment[i].ItemStat;         //weaponCRT에 치명타를 더해준다
+                    }
+                    else if (Inventory.equipment[i].ItemType == "회피")       //아이템 타입이 회피라면
+                    {
+                        weaponAVD += Inventory.equipment[i].ItemStat;         //weaponAVD에 회피를 더해준다
+                    }
+                }
+                else
+                {
+                    
+                }
 
-    static void TeamMembers()
-    {
+            }
+            // 여기서 Status에 저장
+            MainSpace.status.nowEquipSTR = weaponSTR;
+            MainSpace.status.nowEquipDEF = weaponDEF;
+            MainSpace.status.nowEquipCRT = weaponCRT;
+            MainSpace.status.nowEquipAVD = weaponAVD;
 
-        Console.Clear();
-
-        Console.WriteLine(" 테크니컬 리더 김지수님 감사합니다. ");
-        Console.WriteLine(" 민종곤님 감사합니다. ");
-        Console.WriteLine(" 최용선님 감사합니다.");
-        Console.WriteLine(" 윤지민님 감사합니다.");
-        Console.WriteLine("  ");
-
-        Console.WriteLine(" 1조의 팀원들입니다. \n아무 키누르면 프로그램 종료");
-        Console.ReadKey();
+        }
 
 
 
     }
 }
-
-
-
-
-
-
