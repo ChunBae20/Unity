@@ -1,0 +1,15 @@
+C:\Users\JM\Desktop\UnityGit\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\This is Sparta!!.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JM\Desktop\UnityGit\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\This is Sparta!!.AssemblyInfoInputs.cache
+C:\Users\JM\Desktop\UnityGit\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\This is Sparta!!.AssemblyInfo.cs
+C:\Users\JM\Desktop\UnityGit\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\This is Sparta!!.csproj.CoreCompileInputs.cache
+C:\Users\JM\Desktop\UnityGit\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\This is Sparta!!.sourcelink.json
+C:\Users\JM\Desktop\UnityGit\Unity\This is Sparta!!\This is Sparta!!\bin\Debug\net8.0\This is Sparta!!.exe
+C:\Users\JM\Desktop\UnityGit\Unity\This is Sparta!!\This is Sparta!!\bin\Debug\net8.0\This is Sparta!!.deps.json
+C:\Users\JM\Desktop\UnityGit\Unity\This is Sparta!!\This is Sparta!!\bin\Debug\net8.0\This is Sparta!!.runtimeconfig.json
+C:\Users\JM\Desktop\UnityGit\Unity\This is Sparta!!\This is Sparta!!\bin\Debug\net8.0\This is Sparta!!.dll
+C:\Users\JM\Desktop\UnityGit\Unity\This is Sparta!!\This is Sparta!!\bin\Debug\net8.0\This is Sparta!!.pdb
+C:\Users\JM\Desktop\UnityGit\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\This is Sparta!!.dll
+C:\Users\JM\Desktop\UnityGit\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\refint\This is Sparta!!.dll
+C:\Users\JM\Desktop\UnityGit\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\This is Sparta!!.pdb
+C:\Users\JM\Desktop\UnityGit\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\This is Sparta!!.genruntimeconfig.cache
+C:\Users\JM\Desktop\UnityGit\Unity\This is Sparta!!\This is Sparta!!\obj\Debug\net8.0\ref\This is Sparta!!.dll
